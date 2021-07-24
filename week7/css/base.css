@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*要素セレクタ(先週の復習)*/
+ul{
+    /*リストの行頭文字を変更するプロパティ*/
+    list-style: none;
+}
+
+table{
+    /* 罫線を表示するプロパティ(線の太さ、線のタイプ、線の色) */
+    border: 1px solid #000000;
+}
+
+th{
+    border: 1px double #000000;
+}
+
+
+td{
+    border: 1px dashed #FF0000;
+}
+    
+/*IDセレクタ*/
+#top{
+    color: coral;
+}
+
+#池田大作{
+    color: cyan;
+}
+
+.aka{
+    color: #FF0000;
+}
+
+.text-center{
+    text-align: center;
+}
+/* 複数を同時指定 */
+/* h1,.aka{ */
+    /* font-size: 3em; */
+/* } */
+
+/* P+P{ */
+    /* font-size: 4em; */
+/* } */
+
+/* a:hover{
+    font-size: 3em;
+} */
+
+/* 未訪問 */
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(73, 226, 43);
+}
